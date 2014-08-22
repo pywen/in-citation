@@ -1,3 +1,5 @@
+#coding: utf-8
+
 import re
 
 def get_au(lines):
@@ -36,7 +38,3 @@ def get_cr(lines):
                     crlist.append([i.strip() for i in re.match(prest,lines[lines.index(line)+n]).group(1).lower().split(',')[0:3]])
                     n+=1
     return crlist
-
-f=open(r'F:\合作演化数据集内部引用网络\切割后的数据\ER1.txt','r')
-lines=f.readlines()
-print str({'SELF':[get_au(lines),get_py(lines),get_j9(lines)],'CR':get_cr(lines)})
