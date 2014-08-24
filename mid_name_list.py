@@ -1,3 +1,5 @@
+#在pre_name_list进一步处理，对第一个姓名字段进行去重后输出mid_name_list.txt文件
+
 f=open('s-self-names.txt','r')
 s_self_names=[]
 for line in f.readlines():
