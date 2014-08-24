@@ -1,5 +1,5 @@
 #coding: utf-8
-
+#用于提取AU,PY,J9和CR字段的参考文献的函数
 import re
 
 def get_au(lines):
