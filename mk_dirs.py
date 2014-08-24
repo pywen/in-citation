@@ -1,3 +1,4 @@
+#从 func_endnote中导入函数，用于构建储存记录的字典
 from func_endnote import *
 
 def mk_dir(i):
