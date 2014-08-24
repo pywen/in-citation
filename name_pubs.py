@@ -1,3 +1,5 @@
+#提取姓名和出版物的列表
+
 self_names=[]
 all_names=[]
 self_pubs=[]
